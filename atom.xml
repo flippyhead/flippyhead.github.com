@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[PTB.IO]]></title>
-  <link href="http://flippyhead.github.io/atom.xml" rel="self"/>
-  <link href="http://flippyhead.github.io/"/>
-  <updated>2013-06-24T21:44:22-07:00</updated>
-  <id>http://flippyhead.github.io/</id>
+  <link href="http://ptb.io/atom.xml" rel="self"/>
+  <link href="http://ptb.io/"/>
+  <updated>2013-06-24T21:51:13-07:00</updated>
+  <id>http://ptb.io/</id>
   <author>
     <name><![CDATA[Peter T. Brown]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Welcome]]></title>
-    <link href="http://flippyhead.github.io/blog/2013/03/05/welcome/"/>
+    <link href="http://ptb.io/blog/2013/03/05/welcome/"/>
     <updated>2013-03-05T22:56:00-08:00</updated>
-    <id>http://flippyhead.github.io/blog/2013/03/05/welcome</id>
+    <id>http://ptb.io/blog/2013/03/05/welcome</id>
     <content type="html"><![CDATA[<p>Hey so this is happening. Little by little each day I&rsquo;ll slowing bootstrap my small link in the collective super toob conciousness I&rsquo;ve been consuming all these years.</p>
 ]]></content>
   </entry>

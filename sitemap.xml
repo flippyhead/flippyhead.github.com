@@ -1,31 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://flippyhead.github.io/blog/2013/03/05/welcome/</loc>
+        <loc>http://ptb.io/blog/2013/03/05/welcome/</loc>
         <lastmod>2013-06-24T17:50:05-07:00</lastmod>
     </url>
     <url>
-        <loc>http://flippyhead.github.io/blog/archives/</loc>
+        <loc>http://ptb.io/blog/archives/</loc>
         <lastmod>2013-06-24T17:50:05-07:00</lastmod>
     </url>
     <url>
-        <loc>http://flippyhead.github.io/blog/</loc>
+        <loc>http://ptb.io/blog/</loc>
         <lastmod>2013-06-24T17:50:05-07:00</lastmod>
     </url>
     <url>
-        <loc>http://flippyhead.github.io/heaid/</loc>
+        <loc>http://ptb.io/heaid/</loc>
         <lastmod>2013-06-24T17:50:05-07:00</lastmod>
     </url>
     <url>
-        <loc>http://flippyhead.github.io/</loc>
+        <loc>http://ptb.io/</loc>
         <lastmod>2013-06-24T21:38:23-07:00</lastmod>
     </url>
     <url>
-        <loc>http://flippyhead.github.io/mebe/</loc>
+        <loc>http://ptb.io/mebe/</loc>
         <lastmod>2013-06-24T17:50:05-07:00</lastmod>
     </url>
     <url>
-        <loc>http://flippyhead.github.io/robots.txt</loc>
+        <loc>http://ptb.io/robots.txt</loc>
         <lastmod>2013-06-23T21:31:05-07:00</lastmod>
     </url>
 </urlset>
