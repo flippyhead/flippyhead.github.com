@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>mebe - Yeah Totally</title>
+  <meta name="author" content="Peter T. Brown">
+
+  
+  <meta name="description" content="Mebe Mar 22nd, 2013 TL;DR Mebe.co is a URL-based API for displaying images. It&#8217;s pretty damn simple; you just include a keyword or two in the &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://yeahtotally.org/mebe/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Yeah Totally" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Tauri' rel='stylesheet' type='text/css'>
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+
+</head>
+
+<body    class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Yeah Totally</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><!-- { % include navigation.html % } --></nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">Mebe</h1>
+    <p class="meta">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-22T09:31:00-07:00" pubdate data-updated="true">Mar 22<span>nd</span>, 2013</time></p>
+  </header>
+  
+  <h2>TL;DR</h2>
+
+<p>Mebe.co is a URL-based API for displaying images. It&#8217;s pretty damn simple; you just include a keyword or two in the URL and you&#8217;ll get a highly related image.</p>
+
+<p><a href="http://mebe.co">Try it out!</a></p>
+
+<h2>Motivation</h2>
+
+<p>I found myself daily wanting to &#8220;talk in pictures.&#8221; Many of the mobile and desktop messaging tools I use daily provide facilities for including <a href="http://www.emoji-cheat-sheet.com/">emoji</a> icons or to display images. But the provided icons are always extremely limited, usually to smiley faces and the like.</p>
+
+<p>mebe.co is designed to let you express an idea visually via a simple text (usually chat) interface. Campfire, Facebook even GitHub comments (and countless other apps) will convert a URL that points to an image into the image itself. mebe.co makes it super easy to express any idea in an image.</p>
+
+<h2>Construction</h2>
+
+<p>mebe.co is a <a href="http://nodejs.com">Node</a> app hosted on <a href="http://nodejitsu.com">NodeJitsu</a>. It uses <a href="http://aws.amazon.com/s3/">Amazon S3</a> to cache image results which it gets from the <a href="http://www.bing.com/developers/">Bing Search API</a>. It doesn&#8217;t have a data store.</p>
+
+<p>Bing provides reasonably high quality search results; I&#8217;d say at least as good as Google&#8217;s. It simply grabs the first (most relevant) match for your term, displaying a reasonably sized thumbnail of the original. At some point I may have to start paying for search results.</p>
+
+<h2>Discussion</h2>
+
+<p>I&#8217;d love to hear your thoughts and ideas! Please comment below. There&#8217;s also a great discussion that happened on <a href="https://news.ycombinator.com/item?id=5618523">Hacker News</a>.</p>
+
+  
+    <footer>
+      <p class="meta">
+        
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-22T09:31:00-07:00" pubdate data-updated="true">Mar 22<span>nd</span>, 2013</time>
+        
+      </p>
+      
+        <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://yeahtotally.org/mebe/index.html" data-via="" data-counturl="http://yeahtotally.org/mebe/index.html" >Tweet</a>
+  
+  
+  
+</div>
+
+      
+    </footer>
+  
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p><a href="/blog">Blogsies</a></p>
+<p>Copyright &copy; 2013 - Peter T. Brown</p>
+<!-- Yes, this site is: <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span> -->
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'yeahtotally';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://yeahtotally.org/mebe/index.html';
+        var disqus_url = 'http://yeahtotally.org/mebe/index.html';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

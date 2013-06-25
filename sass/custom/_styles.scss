@@ -1,0 +1,116 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+body > header {
+  text-transform: uppercase;
+}
+
+body > nav {
+  text-align: center;
+  padding-bottom: 0;
+
+  .main-navigation {
+    display: inline-block;
+    float: none;
+  }
+}
+
+body > footer {
+  text-align: center;
+}
+
+
+.stuff {
+  margin-top: 20px;
+}
+
+#ShelfariWidget241673, #ShelfariWidget241675 {
+  display: inline;
+}
+
+#shelfari {
+  padding-bottom: 1.5em;
+
+  &.shelfari {
+    font-size: 100%;
+    font: inherit;
+    font-weight: normal;
+    vertical-align: baseline;
+  }
+
+  display: inline;
+
+  div {
+    display: inline;
+  }
+
+  a.pbs {
+    display: none;
+  }
+
+  a.title {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    font-style: italic;
+    font-weight: normal;
+    vertical-align: baseline;
+
+    &:after {
+      content: ", ";
+      color: black;
+    }
+  }
+
+  .page {
+    display: none;
+  }
+}
+
+#pinboard {
+  ul {
+    display: inline;
+    list-style-type: none;
+
+    li, p, a.pin-title {
+      display: inline;
+    }
+
+    li a {
+      font-style: italic;
+      &:after {
+        content: ",";
+        color: black;
+      }
+    }
+  }
+}
+
+.lastfm {
+  ul {
+    display: inline;
+
+    li a {
+      font-style: italic;
+    }
+  }
+}
+
+.softLinks a {
+  color: black !important;
+  text-decoration: none !important;
+
+  &:hover {
+    color: $link-color-hover !important;
+  }
+}
+
+ul.inline {
+  list-style-type: none;
+  li {
+    display: inline;
+  }
+}
