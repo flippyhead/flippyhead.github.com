@@ -64,7 +64,7 @@
 
 <p>I&rsquo;m currently the CTO and co-founder of <a href="http://pathable.com">Pathable, Inc.</a>, where we make conferences better for organizers and their attendees. I worked with some friends to develop large scale <a href="/heaid/">interactive musical instrument</a> for Burning Man a few years back. For fun, I made a <a href="/mebe/">small tool</a> to help one talk in pictures.</p>
 
-<p>You can find me partially engaged on <a href="http://www.facebook.com/flippyhead">Facebook</a> and <a href="https://twitter.com/flippyhead">Twitter</a>. I&rsquo;ve got a few places listed on <a href="https://www.airbnb.com/users/show/1635606">AirBnb</a> too. Feel free to email me. I&rsquo;m peter at flippyhead dot com.</p>
+<p>You can find me partially engaged on <a href="http://www.facebook.com/flippyhead">Facebook</a> and <a href="https://twitter.com/flippyhead">Twitter</a>. I&rsquo;ve got a few places listed on <a href="https://www.airbnb.com/users/show/1635606">AirBnb</a> too. Feel free to email me. I&rsquo;m p at ptb dot io.</p>
 
 <div class="stuff">Books I&#8217;m currently reading include <div class="softLinks" id="ShelfariWidget241673"><script src="http://www.shelfari.com/ws/241673/widget.js?r=82586" type="text/javascript" language="javascript"></script></div> and <a href="http://www.shelfari.com/o1514890215/lists/NowReading">a few others</a>.</div>
 
@@ -110,7 +110,7 @@
       start = 0;
       songs = feed.value.items;
       now = songs[0];
-      if ( new Date() - new Date(now.pubDate) < 999999 ) {
+      if ( now && (new Date() - new Date(now.pubDate) < 999999) ) {
         start = 1;
         $now.show().find('span').html('<a href="' + now.link + '">'+ now.title +'</a>');
       } else {
