@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/O6OW1RqX6lk" frameborder="0" allowfullscreen></iframe>
+<iframe width="721" height="561" src="//www.youtube.com/embed/O6OW1RqX6lk?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ## TL;DR
 

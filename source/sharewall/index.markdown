@@ -7,10 +7,10 @@ sharing: true
 footer: true
 ---
 
-## ShareWall.co
+![The ShareWall at Tougo Coffee](https://dl.dropboxusercontent.com/u/242501/yeahtotally.org/sharewall-1.JPG)
 
-ShareWall is an ongoing experiment in community sharing.
+ShareWall is a small experiment in community sharing (and building real-time apps using [Meteor](http://meteor.com/)).
 
-My favorite coffee shop, [Tougo Coffee](http://tougocoffee.com/), installed a large HD flat panel screen. Displayed is a rotating collection of community provided images. Coffee drinkers can visit a mobile-friendly website on their phones to post images or messages to the screen.
+My favorite coffee shop, [Tougo Coffee](http://tougocoffee.com/), installed a large HD flat panel screen. Displayed is a rotating collection of community uploaded images. Coffee drinkers can visit a mobile-friendly page to post images or messages to the screen.
 
-[See what's on the screen now](http://sharewall.co/wall)
+You can see [what's on the screen currently](http://sharewall.co/wall).
