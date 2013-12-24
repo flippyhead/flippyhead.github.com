@@ -18,7 +18,7 @@
     </url>
     <url>
         <loc>http://ptb.io/</loc>
-        <lastmod>2013-12-18T21:44:58-08:00</lastmod>
+        <lastmod>2013-12-24T06:04:36-08:00</lastmod>
     </url>
     <url>
         <loc>http://ptb.io/mebe/</loc>
@@ -31,5 +31,9 @@
     <url>
         <loc>http://ptb.io/sharewall/</loc>
         <lastmod>2013-12-18T21:46:21-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://ptb.io/togetherly/</loc>
+        <lastmod>2013-12-24T06:07:42-08:00</lastmod>
     </url>
 </urlset>
