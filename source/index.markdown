@@ -9,7 +9,7 @@ footer: false
 
 {% img left https://dl.dropbox.com/u/242501/yeahtotally.org/flippyhead.jpg 300 400 %} Hi, I'm Peter T. Brown, a technology entrepreneur, artist and intellectual. I started out in college studying Japanese and computer science but that was in the late 90's and hey, everyone was doing it, so I dropped out and started a series of technology companies. Some did better than others; mostly the best are yet to come.
 
-I'm currently the CTO and co-founder of [Pathable, Inc.](http://pathable.com), where we make conferences better for organizers and their attendees. I worked with some friends to develop large scale [interactive musical instrument](/heaid/) for Burning Man a few years back. For fun, I made a [small tool](/mebe/) to help one talk in pictures, an [experiment in community sharing](/sharewall/), and an [attempt to make sharing links with friends](/togetherly/) a little bit easier.
+I'm currently the CTO and co-founder of [Pathable, Inc.](http://pathable.com), where we make conferences better for organizers and attendees. Some friends and I developed a large scale [interactive musical instrument](/heaid/) for Burning Man. I made a [small tool](/mebe/) to help one talk in pictures, an [experiment in community sharing](/sharewall/), an [attempt to make sharing links with friends](/togetherly/) a little bit easier, and a [personal search engine](http://fetching.io) for all the sites you visit.
 
 You can find me partially engaged on [Facebook](http://www.facebook.com/flippyhead) and [Twitter](https://twitter.com/flippyhead). I've got a few places listed on [AirBnb](https://www.airbnb.com/users/show/1635606) too. Feel free to email me. I'm p at ptb dot io.
 
