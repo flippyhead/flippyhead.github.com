@@ -1,9 +1,0 @@
----
-layout: post
-title: "Welcome"
-date: 2013-03-05 22:56
-comments: true
-categories:
----
-
-Hey so this is happening. Little by little each day I'll slowing bootstrap my small link in the collective super toob conciousness I've been consuming all these years.
