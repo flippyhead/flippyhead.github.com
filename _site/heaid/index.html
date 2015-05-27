@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      H.E.Ai.D. &middot; ptb.io
+    
+  </title>
+
+  <!-- JavaScript -->
+  <script type="text/javascript" src="/public/javascript/underscore.js"></script>
+  <script type="text/javascript" src="/public/javascript/jquery.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="/public/css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>The personal website for Peter Travis Brown.</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">About</a>
+        
+      
+    
+      
+    
+      
+        
+          <a class="sidebar-nav-item active" href="/heaid/">H.E.Ai.D.</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/mebe/">mebe</a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/sharewall/">sharewall</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/togetherly/">togetherly</a>
+        
+      
+    
+
+    <span class="sidebar-nav-item">Currently v1.0.0</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2015. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead ">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">ptb.io</a>
+            <small>lkjsdaf alksdjf alskdj</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="page">
+  <h1 class="page-title">H.E.Ai.D.</h1>
+  <iframe width="721" height="561" src="//www.youtube.com/embed/O6OW1RqX6lk?rel=0" frameborder="0" allowfullscreen=""></iframe>
+
+<h2 id="tldr">TL;DR</h2>
+
+<p>The H.E.Ai.D. is a large scale, interactive, collaborative art installation where people dance with laser light and create music together as they move. It uses computer vision to interpret motion then generates a variety of music, sound and light patterns.</p>
+
+<p>The system runs on custom configured Mac-based hardware and is primarily written in JavaScript for the <a href="http://cycling74.com/products/max/">Max</a> platform. The source code is available <a href="https://github.com/flippyhead/heaid">freely on github</a>.</p>
+
+<p>The software runs on custom assembled hardware including a mac mini, laser, galvanometer, sound system, and cameras.</p>
+
+<p>Learn more at <a href="http://heaid.com">heaid.com</a>.</p>
+
+<h2 id="history">History</h2>
+
+<p>In winter 2010 a group of fantastically smart engineers, designers and musicians got together and committed to building a large scale interactive musical instrument for Burning Man that year. The following months were an incredible time of thinking, building, designing and generally willing our project into existence. We ended up getting significant funding from <a href="http://ignitionnw.org/">IgnitionNW</a> and <a href="http://www.burningman.com/installations/art_grants.html">Burning Man Arts Organization</a>, thanks guys!</p>
+
+<p>After about six months of pretty serious effort our project was successfully deployed and generally was a big hit. It was installed at a few other art installations and conferences before being retired in late 2011.</p>
+
+<h2 id="design">Design</h2>
+
+<p>The general concept was to create a large interactive space that multiple people could inhabit and affect. Movement would be interpreted and feedback provided in form of sound and light.</p>
+
+<p><img src="https://dl.dropbox.com/u/242501/yeahtotally.org/heaid-hardware-0.jpg" alt="General design" /></p>
+
+<p>We tried three different technical approaches for the main apparatus before settling on a final solution. All three utilized a single laser beam being rapidly “split” into many beams (and arbitrary patterns) using a galvanometer-based oscillating mirror.</p>
+
+<p><img src="https://dl.dropbox.com/u/242501/yeahtotally.org/heaid-hardware-2.jpg" alt="A single beam split into many" /></p>
+
+<p>The first approach for detecting interaction combined the use of lasers for both output and input detection. It was a predominately hardware-based “laser harp” inspired by a <a href="http://www.stephenhobley.com/blog/laser-harp-2009/the-laser-harp-pages/">design by Stephen Hobley</a>. This approach used custom logic chips, light detectors, and a simple arduino program.</p>
+
+<p><img src="https://dl.dropbox.com/u/242501/yeahtotally.org/heaid-hardware-1.jpg" alt="Hardware based electronic harp" /></p>
+
+<p>Timing signals were applied to a galvanometer to split a single beam. The timing information was used in conjunction with the backscatter detection to work out which of the “split” beams was being broken at any one time. This produced MIDI signals to whatever instrument was connected.</p>
+
+<p><img src="https://dl.dropbox.com/u/242501/yeahtotally.org/heaid-hardware-3.jpg" alt="galvanometer oscillating mirror and control systemm" /></p>
+
+<p>The second approach used <a href="http://opencv.org/">OpenCV</a> and a custom OSX-based objective-C program to interpret video information. This approach worked OK but wasn’t very adaptable and lacked effective techniques for disambiguating visual signal from noise (e.g. shifting backgrounds or changes in lighting).</p>
+
+<p><img src="https://dl.dropbox.com/u/242501/yeahtotally.org/heaid-software-1.jpg" alt="Object-C OpenCV software" /></p>
+
+<p>A mac mini with camera, laser systems and sound controllers was housed in a custom built weather proof housing. The hope was that this device could be placed in a variety of locations; containing everything necessary (minus the speakers) to implement the art piece. We took great pains to deal with the unique environmental constraints posed by the Nevada desert in August, including building in a dry ice container to act as a heat sync during the hottest part of the day (which it turned out was not necessary).</p>
+
+<p><img src="https://dl.dropbox.com/u/242501/yeahtotally.org/heaid-hardware-5.png" alt="Hardware + computer" /></p>
+
+<p>The final solution we ended up choosing (and investing heavily in) was based on JavaScript and a more sophisticated approach to computer vision. The extreme flexibility of the Max platform for signal processing made it a lot easier to build in background detection, adaptability to changing lighting conditions, better edge detection, and sophisticated sound manipulations. What’s more it allowed for some pretty crazy on-the-fly re-programming to experiment with different music and laser response models.</p>
+
+<p><img src="https://dl.dropbox.com/u/242501/yeahtotally.org/heaid-software-3.jpg" alt="The main max interface" /></p>
+
+<p>The overall user interface worked in two modes. The first created virtual pads in two dimensions on the ground. Events were triggered as people entered, left or moved within different zones. This activity was used to play and manipulate “DJ sets” provided by different community musicians. The second mode posed an analog continuum in a sound lattice which combined tones based on all people present in the play space. This produced strange harmonies that changed depending on position and number of people involved.</p>
+
+<p><img src="https://dl.dropbox.com/u/242501/yeahtotally.org/heaid-software-2.png" alt="Detection sound &quot;pad&quot; map" /></p>
+
+<p>For Burning Man we developed a large lighting truss based structure to suspend the device from. It used custom milled mounting devices to attach all the import parts including the computer systems and speakers. A custom developed ambient lighting device was developed to create optimal static lighting conditions at night.</p>
+
+<p><img src="https://dl.dropbox.com/u/242501/yeahtotally.org/heaid-hardware-6.jpg" alt="Super structure" /></p>
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

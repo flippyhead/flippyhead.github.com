@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      mebe &middot; ptb.io
+    
+  </title>
+
+  <!-- JavaScript -->
+  <script type="text/javascript" src="/public/javascript/underscore.js"></script>
+  <script type="text/javascript" src="/public/javascript/jquery.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="/public/css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>The personal website for Peter Travis Brown.</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">About</a>
+        
+      
+    
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/heaid/">H.E.Ai.D.</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item active" href="/mebe/">mebe</a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/sharewall/">sharewall</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/togetherly/">togetherly</a>
+        
+      
+    
+
+    <span class="sidebar-nav-item">Currently v1.0.0</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2015. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead ">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">ptb.io</a>
+            <small>lkjsdaf alksdjf alskdj</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="page">
+  <h1 class="page-title">mebe</h1>
+  <h2 id="tldr">TL;DR</h2>
+
+<p>Mebe.co is a URL-based API for displaying images. It’s pretty damn simple; you just include a keyword or two in the URL and you’ll get a highly related image.</p>
+
+<p><a href="http://mebe.co">Try it out!</a></p>
+
+<h2 id="motivation">Motivation</h2>
+
+<p>I found myself daily wanting to “talk in pictures.” Many of the mobile and desktop messaging tools I use daily provide facilities for including <a href="http://www.emoji-cheat-sheet.com/">emoji</a> icons or to display images. But the provided icons are always extremely limited, usually to smiley faces and the like.</p>
+
+<p>mebe.co is designed to let you express an idea visually via a simple text (usually chat) interface. Campfire, Facebook even GitHub comments (and countless other apps) will convert a URL that points to an image into the image itself. mebe.co makes it super easy to express any idea in an image.</p>
+
+<h2 id="construction">Construction</h2>
+
+<p>mebe.co is a <a href="http://nodejs.com">Node</a> app hosted on <a href="http://nodejitsu.com">NodeJitsu</a>. It uses <a href="http://aws.amazon.com/s3/">Amazon S3</a> to cache image results which it gets from the <a href="http://www.bing.com/developers/">Bing Search API</a>. It doesn’t have a data store.</p>
+
+<p>Bing provides reasonably high quality search results; I’d say at least as good as Google’s. It simply grabs the first (most relevant) match for your term, displaying a reasonably sized thumbnail of the original. At some point I may have to start paying for search results.</p>
+
+<h2 id="discussion">Discussion</h2>
+
+<p>I’d love to hear your thoughts and ideas! Please comment below. There’s also a great discussion that happened on <a href="https://news.ycombinator.com/item?id=5618523">Hacker News</a>.</p>
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

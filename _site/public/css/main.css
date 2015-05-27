@@ -1,0 +1,27 @@
+.masthead.invisible {
+  border: none;
+  padding: 0; }
+  .masthead.invisible .masthead-title {
+    display: none; }
+
+img.lead {
+  float: left;
+  width: 14rem;
+  margin-right: 1rem; }
+
+.hidden {
+  display: none; }
+
+.text-only a {
+  font-style: italic; }
+
+.gr_grid_container {
+  /* customize grid container div here. eg: width: 500px; */ }
+
+.gr_grid_book_container {
+  /* customize book cover container div here */
+  float: left;
+  width: 98px;
+  height: 160px;
+  padding: 0px 0px;
+  overflow: hidden; }

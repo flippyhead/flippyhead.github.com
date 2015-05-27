@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+       &middot; ptb.io
+    
+  </title>
+
+  <!-- JavaScript -->
+  <script type="text/javascript" src="/public/javascript/underscore.js"></script>
+  <script type="text/javascript" src="/public/javascript/jquery.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="/public/css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>The personal website for Peter Travis Brown.</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">About</a>
+        
+      
+    
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/heaid/">H.E.Ai.D.</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/mebe/">mebe</a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/sharewall/">sharewall</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/togetherly/">togetherly</a>
+        
+      
+    
+
+    <span class="sidebar-nav-item">Currently v1.0.0</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2015. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead invisible">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">ptb.io</a>
+            <small>lkjsdaf alksdjf alskdj</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <img class="lead" src="https://dl.dropbox.com/u/242501/yeahtotally.org/flippyhead.jpg"/>
+
+<p>
+  Hi, I'm Peter T. Brown, a technology entrepreneur, artist and intellectual. I started out in college studying Japanese and computer science but that was in the late 90's and hey, the opportunity seemed unique, so I dropped out and started a series of technology companies. Some did better than others; mostly the best are yet to come.
+</p>
+
+<p>
+  I'm currently the CTO and co-founder of <a href="http://pathable.com">Pathable, Inc.</a>, where we make conferences better for organizers and attendees. Some friends and I developed a large scale <a href="/heaid">interactive musical instrument</a> for Burning Man. I made a <a href="/mebe">small tool</a> to help one talk in pictures, an <a href="/sharewall">experiment in community sharing</a>, and a <a href="http://fetching.io">personal search engine</a> for all the sites you visit.
+</p>
+
+<p>
+  You can find me partially engaged on <a href="http://www.facebook.com/flippyhead">Facebook</a> and <a href="https://twitter.com/flippyhead">Twitter</a>. I've got a few places listed on <a href="https://www.airbnb.com/users/show/1635606">AirBnb</a> too. Feel free to email me. I'm p at ptb dot io.
+</p>
+
+
+<p>
+  Books I've recently read include <span class="text-only" id="goodreads"></span>
+</p>
+
+<div class="hidden" id="gr_grid_widget_1431821457"></div>
+<script src="https://www.goodreads.com/review/grid_widget/21579241.goodreads?cover_size=medium&amp;hide_link=true&amp;hide_title=true&amp;num_books=5&amp;order=d&amp;shelf=read&amp;sort=date_started&amp;widget_id=1431821457" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript" src="/public/javascript/goodreads.js"></script>
+<p>
+  Songs I've recently listened to include <span class="text-only" id="spotify"></span>
+</p>
+
+<script type="text/javascript" src="/public/javascript/spotify.js"></script>
+<p>
+  Sites I've recently bookmarked include <span class="text-only" id="fetching"></span>
+</p>
+
+<script type="text/javascript" src="/public/javascript/fetching.js"></script>
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

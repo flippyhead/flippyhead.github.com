@@ -1,23 +1,22 @@
 ---
 layout: default
+masthead_class: invisible
 ---
 
-<div class="home">
+<img class="lead" src="https://dl.dropbox.com/u/242501/yeahtotally.org/flippyhead.jpg"/>
 
-  <h1 class="page-heading">Posts</h1>
+<p>
+  Hi, I'm Peter T. Brown, a technology entrepreneur, artist and intellectual. I started out in college studying Japanese and computer science but that was in the late 90's and hey, the opportunity seemed unique, so I dropped out and started a series of technology companies. Some did better than others; mostly the best are yet to come.
+</p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<p>
+  I'm currently the CTO and co-founder of <a href="http://pathable.com">Pathable, Inc.</a>, where we make conferences better for organizers and attendees. Some friends and I developed a large scale <a href="/heaid">interactive musical instrument</a> for Burning Man. I made a <a href="/mebe">small tool</a> to help one talk in pictures, an <a href="/sharewall">experiment in community sharing</a>, and a <a href="http://fetching.io">personal search engine</a> for all the sites you visit.
+</p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<p>
+  You can find me partially engaged on <a href="http://www.facebook.com/flippyhead">Facebook</a> and <a href="https://twitter.com/flippyhead">Twitter</a>. I've got a few places listed on <a href="https://www.airbnb.com/users/show/1635606">AirBnb</a> too. Feel free to email me. I'm p at ptb dot io.
+</p>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+{% include goodreads.html %}
+{% include spotify.html %}
+{% include fetching.html %}
